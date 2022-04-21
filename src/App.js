@@ -1,11 +1,9 @@
-import './App.css';
+import {DropDown} from './components/select/index'
 
-function App() {
-  return (
-    <div className="App">
-   <h1 className='text-3xl font-bold underline'>Hello world</h1>
-    </div>
-  );
+export const App = () => {
+    return (
+        <div className="App">
+            <DropDown />
+        </div>
+    );
 }
-
-export default App;
